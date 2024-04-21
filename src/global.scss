@@ -1,0 +1,69 @@
+@import './components/header/header.scss';
+@import './components/footer/footer.scss';
+@import './components/garage-options/garage-options.scss';
+@import './components/race/race.scss';
+@import './templates/garage/garage.scss';
+@import './templates/winners/winners.scss';
+@import './components/winner/winner.scss';
+@import './components/winners-options/winners-options.scss';
+@import './components/modal-window/modal-window.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+}
+
+input[type='text']:focus {
+  border: 2px solid #1f114a;
+}
+
+html,
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  background-color:  #544a69;
+  padding-bottom: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+button:disabled,
+button[disabled] {
+  background-color:  #170a31;
+  cursor: not-allowed;
+}
+
+button:disabled:hover,
+button[disabled]:hover {
+  color: black;
+}
+
+input[type='submit']:disabled {
+  background-color: #22333b;
+  cursor: not-allowed;
+}
+
+input[type='submit']:disabled:hover {
+  color: black;
+}

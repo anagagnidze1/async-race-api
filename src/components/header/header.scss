@@ -1,0 +1,27 @@
+.header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  background-color: #1f114a;
+  align-items: center;
+
+  &__btn {
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #5e503f;
+    background-color: #eae0d5;
+    transition: all 0.3s;
+    font-size: 26px;
+
+    &:hover {
+      transform: scale(1.05);
+      color:  #c6ac8f;
+    }
+  }
+
+  &__info {
+    color: #eae0d5;
+    font-size: 20px;
+  }
+}
